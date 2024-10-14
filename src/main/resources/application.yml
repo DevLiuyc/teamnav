@@ -1,0 +1,70 @@
+server:
+  port: 8082
+spring:
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:./database/data;AUTO_SERVER=TRUE
+    username: sa
+    password: 123456
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    database: h2
+  thymeleaf:
+    cache: false
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 5GB
+  security:
+    user:
+      name: admin
+      roles: admin
+      password: 123456
+    permit-url: /api/v1/card/tree,/api/v1/notice,/api/v1/qrcode,/api/v1/quick/login
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+# 日志相关的配置，还有些问题，后续要改成xml的方式来配置.
+logging:
+  file:
+    name: logs/team-nav.log
+  level:
+    root: info
+    org:
+      apache: error
+      springframework: error
+
+# 线程池配置
+thread-pool:
+  core-pool-num: 2
+  max-pool-num: 2
+
+# 服务名，用于页面logo显示
+nav-name: 团队服务导航
+
+# 是否开启登录功能
+login:
+  enable: true
+
+# 是否开启页面上进行密码修改，用户只有一个，请谨慎开启
+change-password:
+  enable: false
+
+# 是否开启定时清没有使用的文件
+clear-useless-files:
+  enable: true
+  cron: 0 0 1 * * ?
+
+project:
+  version: @project.version@
