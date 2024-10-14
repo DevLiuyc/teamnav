@@ -1,39 +1,40 @@
 package com.lyc.teamnav.bean.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
 
 import java.io.Serializable;
-import java.util.Collection;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "tn_user")
-public class User implements UserDetails, Serializable {
+@Table(name = "nav_user")
+@DynamicInsert
+@DynamicUpdate
+public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
+    @Column(name = "id", length = 32)
     private String id;
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
-    }
 
-    @Override
-    public String getPassword() {
-        return null;
-    }
+    @Column(name = "nickname", length = 100)
+    private String nickname;
 
-    @Override
-    public String getUsername() {
-        return null;
-    }
+    @Column(name = "avatar", length = 200)
+    private String avatar;
+
+    @Column(name = "username", length = 100)
+    private String username;
+
+    @Column(name = "password", length = 100)
+    private String password;
 }
