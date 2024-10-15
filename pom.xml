@@ -71,9 +71,16 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.7.6</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
+		<finalName>teamnav</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -85,6 +92,32 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.blinkfox</groupId>
+				<artifactId>jpack-maven-plugin</artifactId>
+				<version>1.3.4</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>build</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<platforms>
+						<param>Linux</param>
+					</platforms>
+					<configFiles>
+						<param>config/application.yml</param>
+					</configFiles>
+					<copyResources>
+						<copyResource>
+							<from>readme.txt</from>
+							<to>.</to>
+						</copyResource>
+					</copyResources>
 				</configuration>
 			</plugin>
 		</plugins>
