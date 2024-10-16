@@ -1,7 +1,5 @@
 package com.lyc.teamnav.service.impl;
 
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.StrUtil;
 import com.lyc.teamnav.bean.dto.SettingDto;
 import com.lyc.teamnav.bean.entity.Setting;
 import com.lyc.teamnav.common.constants.Constants;
@@ -9,6 +7,8 @@ import com.lyc.teamnav.common.utils.BeanExtUtils;
 import com.lyc.teamnav.repository.SettingRepository;
 import com.lyc.teamnav.service.ISettingService;
 import jakarta.annotation.Resource;
+import org.apache.commons.lang3.BooleanUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -26,16 +26,16 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         Setting setting = get();
-        if (StrUtil.isBlank(setting.getNavName())) {
+        if (StringUtils.isBlank(setting.getNavName())) {
             // 加载默认配置，兼容老版本
             setting.setNavName(navName);
             settingRepository.save(setting);
         }
-        if (StrUtil.isBlank(setting.getLogoPath())) {
+        if (StringUtils.isBlank(setting.getLogoPath())) {
             setting.setLogoPath(Constants.DEFAULT_LOGO_PATH);
             settingRepository.save(setting);
         }
-        if (StrUtil.isBlank(setting.getLayoutSize())) {
+        if (StringUtils.isBlank(setting.getLayoutSize())) {
             setting.setLayoutSize("small-layout");
             settingRepository.save(setting);
         }
@@ -53,8 +53,8 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
      */
     public void saveSetting(SettingDto settingDto) {
         Setting setting = BeanExtUtils.convert(settingDto, Setting::new).setId("setting-id");
-        setting.setNginxUrl(StrUtil.trimEnd("/"));
-        if (StrUtil.isBlank(setting.getLogoPath())) {
+        setting.setNginxUrl(StringUtils.removeEnd(settingDto.getNginxUrl(), "/"));
+        if (StringUtils.isBlank(setting.getLogoPath())) {
             setting.setLogoPath(Constants.DEFAULT_LOGO_PATH);
         }
         settingRepository.save(setting);
@@ -72,11 +72,11 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
 
     private void settingChange(Setting setting) {
         this.settingCache = BeanExtUtils.convert(setting, Setting::new);
-        this.settingCache.setNginxUrl(BooleanUtil.isTrue(setting.getNginxOpen())
-                && StrUtil.isNotBlank(setting.getNginxUrl())
-                ? setting.getNginxUrl() : StrUtil.EMPTY);
+        this.settingCache.setNginxUrl(BooleanUtils.isTrue(setting.getNginxOpen())
+                && StringUtils.isNotBlank(setting.getNginxUrl())
+                ? setting.getNginxUrl() : StringUtils.EMPTY);
         settingCache.setNavName(setting.getNavName());
-        settingCache.setLogoToFavicon(BooleanUtil.isTrue(setting.getLogoToFavicon()));
+        settingCache.setLogoToFavicon(BooleanUtils.isTrue(setting.getLogoToFavicon()));
         settingCache.setCutOverSpeed((setting.getCutOverSpeed() == null ? 10 : setting.getCutOverSpeed()) * 1000);
         settingCache.setLogoPath(setting.getLogoPath());
     }

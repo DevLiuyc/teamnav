@@ -1,9 +1,10 @@
 package com.lyc.teamnav.common.utils;
 
-import cn.hutool.core.util.StrUtil;
+
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.experimental.UtilityClass;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
@@ -45,7 +46,7 @@ public class RequestUtils {
      */
     public static boolean isIe() {
         String userAgent = getRequest().getHeader("User-Agent");
-        return StrUtil.containsAny(userAgent, IE_AGENT);
+        return StringUtils.containsAny(userAgent, IE_AGENT);
     }
 
 }

@@ -1,12 +1,12 @@
 package com.lyc.teamnav.controller;
 
-import cn.hutool.core.util.StrUtil;
 import com.lyc.teamnav.bean.entity.Setting;
 import com.lyc.teamnav.common.utils.RequestUtils;
 import com.lyc.teamnav.common.utils.SecurityUtils;
 import com.lyc.teamnav.service.ISettingService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.web.WebAttributes;
 import org.springframework.stereotype.Controller;
@@ -69,7 +69,7 @@ public class IndexController {
     @GetMapping("/admin/**")
     public String admin(HttpServletRequest request) {
         Setting settingCache = settingService.getSettingCache();
-        request.setAttribute("page", StrUtil.subAfter(request.getServletPath(), "/", true));
+        request.setAttribute("page", StringUtils.substringAfterLast(request.getServletPath(), "/"));
         request.setAttribute("navName", settingCache.getNavName());
         request.setAttribute("logoToFavicon", settingCache.getLogoToFavicon());
         request.setAttribute("logoPath", settingCache.getLogoPath());
