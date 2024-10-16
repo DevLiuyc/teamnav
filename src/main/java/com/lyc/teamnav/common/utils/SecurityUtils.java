@@ -1,7 +1,7 @@
 package com.lyc.teamnav.common.utils;
 
-import cn.hutool.core.util.BooleanUtil;
 import com.lyc.teamnav.bean.entity.User;
+import org.apache.commons.lang3.BooleanUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.core.env.Environment;
@@ -54,7 +54,7 @@ public class SecurityUtils implements ApplicationContextAware {
     }
 
     private static void init(Environment environment) {
-        loginEnable = BooleanUtil.toBoolean(environment.getProperty("login.enable"));
+        loginEnable = BooleanUtils.toBoolean(environment.getProperty("login.enable"));
     }
 
 }

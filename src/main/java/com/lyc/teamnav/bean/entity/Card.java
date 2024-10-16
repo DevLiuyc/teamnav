@@ -1,5 +1,6 @@
 package com.lyc.teamnav.bean.entity;
 
+import com.lyc.teamnav.bean.dto.CardIconDto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -30,6 +31,9 @@ public class Card {
 
     @Column(name = "category", length = 32)
     private String category;
+
+    @Column(name = "icon", length = 400)
+    private CardIconDto icon;
 
     @Column(name = "title", length = 200)
     private String title;

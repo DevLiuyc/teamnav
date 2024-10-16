@@ -1,7 +1,5 @@
 package com.lyc.teamnav.service.impl;
 
-import cn.hutool.core.util.BooleanUtil;
-import cn.hutool.core.util.StrUtil;
 import com.lyc.teamnav.bean.dto.ChangePasswordDto;
 import com.lyc.teamnav.bean.entity.User;
 import com.lyc.teamnav.common.utils.SecurityUtils;
@@ -9,6 +7,7 @@ import com.lyc.teamnav.repository.UserRepository;
 import com.lyc.teamnav.service.IUserService;
 import io.micrometer.common.util.StringUtils;
 import jakarta.annotation.Resource;
+import org.apache.commons.lang3.BooleanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -38,7 +37,7 @@ public class UserService implements IUserService, UserDetailsService, Applicatio
     public void run(ApplicationArguments args) throws Exception {
         User user = get();
         // 不支持在线修改密码，则每次都会读取配置，使得通过配置修改密码生效
-        if (BooleanUtil.isFalse(changePwdEnable)
+        if (BooleanUtils.isFalse(changePwdEnable)
                 || StringUtils.isBlank(user.getPassword())) {
             // 加载默认配置，兼容老版本
             user.setNickname(SecurityUtils.DEFAULT_USER.getNickname());
@@ -52,7 +51,7 @@ public class UserService implements IUserService, UserDetailsService, Applicatio
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = get();
-        Assert.isTrue(StrUtil.equals(username, user.getUsername()), "用户名或密码错误");
+        Assert.isTrue(org.apache.commons.lang3.StringUtils.equals(username, user.getUsername()), "用户名或密码错误");
         return user;
     }
 
