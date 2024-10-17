@@ -1,6 +1,7 @@
 package com.lyc.teamnav.bean.entity;
 
 import com.lyc.teamnav.bean.dto.CardIconDto;
+import com.lyc.teamnav.bean.dto.CardZipDto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -12,6 +13,8 @@ import lombok.experimental.Accessors;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -20,7 +23,7 @@ import org.hibernate.annotations.DynamicUpdate;
 @Table(name = "nav_card")
 @DynamicInsert
 @DynamicUpdate
-public class Card {
+public class Card implements ISortEntity<Card>, Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @Column(name = "id", length = 32)
@@ -44,4 +47,9 @@ public class Card {
     @Column(name = "url", length = 200)
     private String url;
 
+    @Column(name = "zip", length = 400)
+    private CardZipDto zip;
+
+    @Column(name = "sort")
+    private Integer sort;
 }

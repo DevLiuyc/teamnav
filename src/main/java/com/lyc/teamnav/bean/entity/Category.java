@@ -11,6 +11,8 @@ import lombok.experimental.Accessors;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +21,7 @@ import org.hibernate.annotations.DynamicUpdate;
 @Table(name = "nav_category")
 @DynamicInsert
 @DynamicUpdate
-public class Category {
+public class Category implements ISortEntity<Category>, Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @Column(name = "id", length = 32)

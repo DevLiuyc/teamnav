@@ -1,3 +1,7 @@
+/*
+ * @author tuituidan
+ * @date 2020/12/27
+ */
 const http = axios.create({
     timeout: 800000
 });
