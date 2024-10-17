@@ -1,3 +1,15 @@
+/*
+ * @author tuituidan
+ * @date 2020/12/11
+ */
+/*:root {
+    --default-menu-width: 260px;
+    --small-menu-width: 210px;
+    --default-header-height: 70px;
+    --small-header-height: 60px;
+    --default-logo-height: 100px;
+    --small-logo-height: 80px;
+}*/
 .content-wrapper .ivu-table th {
     background-color: #0062c6 !important;
     color: #fff !important;

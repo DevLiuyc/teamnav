@@ -3,7 +3,7 @@ package com.lyc.teamnav.controller;
 import com.lyc.teamnav.bean.dto.CardDto;
 import com.lyc.teamnav.bean.vo.CardTreeVo;
 import com.lyc.teamnav.bean.vo.CardVo;
-import com.lyc.teamnav.service.ICardService;
+import com.lyc.teamnav.service.impl.CardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/card")
+@RequestMapping("/api/v1")
 @RequiredArgsConstructor
 public class CardController {
-    private final ICardService cardService;
+    private final CardService cardService;
 
     /**
      * 首页获取树结构的卡片
@@ -23,14 +23,14 @@ public class CardController {
      * @param keywords 卡片关键字搜索
      * @return List
      */
-    @GetMapping("/tree")
+    @GetMapping("/card/tree")
     public ResponseEntity<List<CardTreeVo>> tree(String keywords) {
         List<CardTreeVo> result = cardService.tree(keywords);
         return ResponseEntity.ok(result);
     }
 
 
-    @GetMapping("/treeById")
+    @GetMapping("/card/treeById")
     public ResponseEntity<List<CardTreeVo>> treeByCategoryId(String categoryId) {
         List<CardTreeVo> cardTreeVoList = cardService.tree(categoryId);
         return ResponseEntity.ok(cardTreeVoList);
@@ -53,7 +53,7 @@ public class CardController {
      * @param cardDto 新增模型数据
      * @return Void
      */
-    @PostMapping("/add")
+    @PostMapping("/card")
     public ResponseEntity<Void> add(@RequestBody CardDto cardDto) {
         cardService.save(null, cardDto);
         return ResponseEntity.status(HttpStatus.CREATED).build();
@@ -66,7 +66,7 @@ public class CardController {
      * @param cardDto 修改数据模型
      * @return Void
      */
-    @PatchMapping("/update/{id}")
+    @PatchMapping("/card/update/{id}")
     public ResponseEntity<Void> update(@PathVariable("id") String id, @RequestBody CardDto cardDto) {
         cardService.save(id, cardDto);
         return ResponseEntity.noContent().build();
@@ -94,7 +94,7 @@ public class CardController {
      * @param id id
      * @return Void
      */
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/card/delete/{id}")
     public ResponseEntity<Void> delete(@PathVariable("id") String id) {
         cardService.delete(id);
         return ResponseEntity.noContent().build();

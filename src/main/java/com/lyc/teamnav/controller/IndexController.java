@@ -3,7 +3,7 @@ package com.lyc.teamnav.controller;
 import com.lyc.teamnav.bean.entity.Setting;
 import com.lyc.teamnav.common.utils.RequestUtils;
 import com.lyc.teamnav.common.utils.SecurityUtils;
-import com.lyc.teamnav.service.ISettingService;
+import com.lyc.teamnav.service.impl.SettingService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 public class IndexController {
 
-    private final ISettingService settingService;
+    private final SettingService settingService;
 
     @Value("${change-password.enable}")
     private Boolean changePwdEnable;
