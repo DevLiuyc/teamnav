@@ -5,7 +5,7 @@ import com.lyc.teamnav.bean.dto.CardZipDto;
 import com.lyc.teamnav.bean.entity.Card;
 import com.lyc.teamnav.common.constants.Constants;
 import com.lyc.teamnav.repository.CardRepository;
-import com.lyc.teamnav.service.ISettingService;
+import com.lyc.teamnav.service.impl.SettingService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
@@ -32,7 +32,7 @@ public class ClearUselessFilesService {
     private CardRepository cardRepository;
 
     @Resource
-    private ISettingService settingService;
+    private SettingService settingService;
 
     @Scheduled(cron = "${clear-useless-files.cron}")
     private void clear() {

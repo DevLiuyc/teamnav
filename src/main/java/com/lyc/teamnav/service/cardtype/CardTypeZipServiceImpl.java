@@ -11,7 +11,7 @@ import com.lyc.teamnav.common.utils.FileExtUtils;
 import com.lyc.teamnav.common.utils.StringExtUtils;
 import com.lyc.teamnav.common.utils.ZipUtils;
 import com.lyc.teamnav.repository.CardRepository;
-import com.lyc.teamnav.service.ISettingService;
+import com.lyc.teamnav.service.impl.SettingService;
 import jakarta.annotation.Resource;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -26,7 +26,7 @@ import java.util.Optional;
 public class CardTypeZipServiceImpl implements ICardTypeService {
 
     @Resource
-    private ISettingService settingService;
+    private SettingService settingService;
 
     @Resource
     private CardRepository cardRepository;

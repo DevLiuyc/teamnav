@@ -7068,3 +7068,461 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
 	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
 
+2024-10-17T16:53:02.396+08:00  WARN 10392 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:02.434+08:00  WARN 10392 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:02.454+08:00  WARN 10392 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:02.473+08:00  WARN 10392 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:13.794+08:00  WARN 10392 --- [http-nio-8082-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-6][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:13.818+08:00  WARN 10392 --- [http-nio-8082-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-6][pages/category] Deprecated unwrapped fragment expression "pages/category/category-valid::category-valid" found in template pages/category, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-valid::category-valid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:13.848+08:00  WARN 10392 --- [http-nio-8082-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-6][pages/category/category-valid] Deprecated unwrapped fragment expression "modal/category-modal::category-modal" found in template pages/category/category-valid, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{modal/category-modal::category-modal}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:13.868+08:00  WARN 10392 --- [http-nio-8082-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-6][modal/category-modal] Deprecated unwrapped fragment expression "components/com-icon-select::com-icon-select" found in template modal/category-modal, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-icon-select::com-icon-select}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:13.883+08:00  WARN 10392 --- [http-nio-8082-exec-6] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-6][pages/category] Deprecated unwrapped fragment expression "pages/category/category-invalid::category-invalid" found in template pages/category, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-invalid::category-invalid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.522+08:00  WARN 10392 --- [http-nio-8082-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-7][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.539+08:00  WARN 10392 --- [http-nio-8082-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-7][pages/settings] Deprecated unwrapped fragment expression "components/settings/base-setting::base-setting" found in template pages/settings, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/settings/base-setting::base-setting}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.640+08:00  WARN 10392 --- [http-nio-8082-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-7][components/settings/base-setting] Deprecated unwrapped fragment expression "components/com-uploader::com-uploader" found in template components/settings/base-setting, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-uploader::com-uploader}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.672+08:00  WARN 10392 --- [http-nio-8082-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-7][pages/settings] Deprecated unwrapped fragment expression "components/settings/change-password::change-password" found in template pages/settings, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{components/settings/change-password::change-password}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.692+08:00  WARN 10392 --- [http-nio-8082-exec-7] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-7][pages/settings] Deprecated unwrapped fragment expression "components/settings/card-icon-upload::card-icon-upload" found in template pages/settings, line 6, col 10. Please use the complete syntax of fragment expressions instead ("~{components/settings/card-icon-upload::card-icon-upload}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T16:53:15.807+08:00 ERROR 10392 --- [http-nio-8082-exec-6] c.l.t.c.e.GlobalExceptionHandler         : No static resource api/v1/setting.
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/setting.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:117) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-10-17T16:53:32.427+08:00 ERROR 10392 --- [http-nio-8082-exec-4] c.l.t.c.e.GlobalExceptionHandler         : No static resource api/v1/setting.
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/setting.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:888) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:117) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-10-17T16:55:18.401+08:00  INFO 16436 --- [main] com.lyc.teamnav.TeamNavApplication       : Starting TeamNavApplication using Java 17.0.11 with PID 16436 (D:\data\code\pujing\teamnav\target\classes started by Administrator in D:\data\code\pujing\teamnav)
+2024-10-17T16:55:18.404+08:00  INFO 16436 --- [main] com.lyc.teamnav.TeamNavApplication       : The following 1 profile is active: "local"
+2024-10-17T16:55:22.066+08:00  INFO 16436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T16:55:22.212+08:00  INFO 16436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T16:55:22.288+08:00  INFO 16436 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T16:55:23.026+08:00  INFO 16436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T16:55:25.483+08:00  INFO 16436 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./database/data user=SA
+2024-10-17T16:55:25.485+08:00  INFO 16436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T16:55:27.380+08:00  WARN 16436 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T16:55:29.859+08:00  INFO 16436 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T16:55:32.898+08:00  INFO 16436 --- [main] com.lyc.teamnav.TeamNavApplication       : Started TeamNavApplication in 15.25 seconds (process running for 17.014)
+2024-10-17T16:58:30.747+08:00  INFO 16436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-17T16:58:30.749+08:00  INFO 16436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-17T16:58:39.813+08:00  INFO 13624 --- [main] com.lyc.teamnav.TeamNavApplication       : Starting TeamNavApplication using Java 17.0.11 with PID 13624 (D:\data\code\pujing\teamnav\target\classes started by Administrator in D:\data\code\pujing\teamnav)
+2024-10-17T16:58:39.817+08:00  INFO 13624 --- [main] com.lyc.teamnav.TeamNavApplication       : The following 1 profile is active: "local"
+2024-10-17T16:58:42.045+08:00  INFO 13624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T16:58:42.155+08:00  INFO 13624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T16:58:42.192+08:00  INFO 13624 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T16:58:42.863+08:00  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T16:58:47.259+08:00  INFO 13624 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./database/data user=SA
+2024-10-17T16:58:47.261+08:00  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T16:58:47.297+08:00  WARN 13624 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T16:58:48.840+08:00  INFO 13624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T16:58:50.180+08:00  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-17T16:58:50.434+08:00  INFO 13624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-17T16:58:50.537+08:00 ERROR 13624 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cardController' defined in file [D:\data\code\pujing\teamnav\target\classes\com\lyc\teamnav\controller\CardController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cardService': Injection of resource dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.lyc.teamnav.TeamNavApplication.main(TeamNavApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardService': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardTypeServiceFactory': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:461) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:605) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 31 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardTypeZipServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1689) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1543) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1511) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1392) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:598) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 45 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'settingService' is expected to be of type 'com.lyc.teamnav.service.ISettingService' but was actually of type 'com.lyc.teamnav.service.impl.SettingService'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:461) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:605) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 65 common frames omitted
+
+2024-10-17T16:59:26.202+08:00  INFO 960 --- [main] com.lyc.teamnav.TeamNavApplication       : Starting TeamNavApplication using Java 17.0.11 with PID 960 (D:\data\code\pujing\teamnav\target\classes started by Administrator in D:\data\code\pujing\teamnav)
+2024-10-17T16:59:26.205+08:00  INFO 960 --- [main] com.lyc.teamnav.TeamNavApplication       : The following 1 profile is active: "local"
+2024-10-17T16:59:28.771+08:00  INFO 960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T16:59:28.847+08:00  INFO 960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T16:59:28.888+08:00  INFO 960 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T16:59:29.353+08:00  INFO 960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T16:59:29.713+08:00  INFO 960 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./database/data user=SA
+2024-10-17T16:59:29.715+08:00  INFO 960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T16:59:29.748+08:00  WARN 960 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T16:59:30.887+08:00  INFO 960 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T16:59:32.002+08:00  INFO 960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-17T16:59:32.236+08:00  INFO 960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-17T16:59:32.274+08:00 ERROR 960 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cardController' defined in file [D:\data\code\pujing\teamnav\target\classes\com\lyc\teamnav\controller\CardController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cardService': Injection of resource dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.lyc.teamnav.TeamNavApplication.main(TeamNavApplication.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardService': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardTypeServiceFactory': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:461) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:605) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 31 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cardTypeZipServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1689) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1543) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1511) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1392) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:598) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 45 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'settingService' is expected to be of type 'com.lyc.teamnav.service.ISettingService' but was actually of type 'com.lyc.teamnav.service.impl.SettingService'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:461) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:605) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368) ~[spring-context-6.1.13.jar:6.1.13]
+	... 65 common frames omitted
+
+2024-10-17T17:01:01.318+08:00  INFO 8356 --- [main] com.lyc.teamnav.TeamNavApplication       : Starting TeamNavApplication using Java 17.0.11 with PID 8356 (D:\data\code\pujing\teamnav\target\classes started by Administrator in D:\data\code\pujing\teamnav)
+2024-10-17T17:01:01.321+08:00  INFO 8356 --- [main] com.lyc.teamnav.TeamNavApplication       : The following 1 profile is active: "local"
+2024-10-17T17:01:03.602+08:00  INFO 8356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T17:01:03.664+08:00  INFO 8356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T17:01:03.709+08:00  INFO 8356 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T17:01:04.179+08:00  INFO 8356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T17:01:04.620+08:00  INFO 8356 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./database/data user=SA
+2024-10-17T17:01:04.622+08:00  INFO 8356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T17:01:04.650+08:00  WARN 8356 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T17:01:05.883+08:00  INFO 8356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T17:01:07.972+08:00  INFO 8356 --- [main] com.lyc.teamnav.TeamNavApplication       : Started TeamNavApplication in 7.299 seconds (process running for 8.143)
+2024-10-17T17:01:19.922+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:19.978+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category] Deprecated unwrapped fragment expression "pages/category/category-valid::category-valid" found in template pages/category, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-valid::category-valid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:20.028+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category/category-valid] Deprecated unwrapped fragment expression "modal/category-modal::category-modal" found in template pages/category/category-valid, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{modal/category-modal::category-modal}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:20.046+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][modal/category-modal] Deprecated unwrapped fragment expression "components/com-icon-select::com-icon-select" found in template modal/category-modal, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-icon-select::com-icon-select}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:20.108+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category] Deprecated unwrapped fragment expression "pages/category/category-invalid::category-invalid" found in template pages/category, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-invalid::category-invalid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:22.760+08:00  WARN 8356 --- [http-nio-8082-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-10][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:22.779+08:00  WARN 8356 --- [http-nio-8082-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-10][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:22.803+08:00  WARN 8356 --- [http-nio-8082-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-10][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:22.815+08:00  WARN 8356 --- [http-nio-8082-exec-10] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-10][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:29.527+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:29.528+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:29.531+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:29.537+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:36.687+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:36.690+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][pages/category] Deprecated unwrapped fragment expression "pages/category/category-valid::category-valid" found in template pages/category, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-valid::category-valid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:36.694+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][pages/category/category-valid] Deprecated unwrapped fragment expression "modal/category-modal::category-modal" found in template pages/category/category-valid, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{modal/category-modal::category-modal}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:36.697+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][modal/category-modal] Deprecated unwrapped fragment expression "components/com-icon-select::com-icon-select" found in template modal/category-modal, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-icon-select::com-icon-select}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:36.705+08:00  WARN 8356 --- [http-nio-8082-exec-2] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-2][pages/category] Deprecated unwrapped fragment expression "pages/category/category-invalid::category-invalid" found in template pages/category, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-invalid::category-invalid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:38.377+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:38.378+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:38.380+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:01:38.388+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:26.653+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:26.654+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category] Deprecated unwrapped fragment expression "pages/category/category-valid::category-valid" found in template pages/category, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-valid::category-valid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:26.658+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category/category-valid] Deprecated unwrapped fragment expression "modal/category-modal::category-modal" found in template pages/category/category-valid, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{modal/category-modal::category-modal}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:26.664+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][modal/category-modal] Deprecated unwrapped fragment expression "components/com-icon-select::com-icon-select" found in template modal/category-modal, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-icon-select::com-icon-select}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:26.670+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][pages/category] Deprecated unwrapped fragment expression "pages/category/category-invalid::category-invalid" found in template pages/category, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-invalid::category-invalid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:28.503+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:28.504+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:28.506+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:28.508+08:00  WARN 8356 --- [http-nio-8082-exec-3] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-3][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:29.895+08:00  WARN 8356 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][admin] Deprecated unwrapped fragment expression "'pages/'+${page}::${page}" found in template admin, line 148, col 6. Please use the complete syntax of fragment expressions instead ("~{'pages/'+${page}::${page}}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:29.902+08:00  WARN 8356 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][pages/category] Deprecated unwrapped fragment expression "pages/category/category-valid::category-valid" found in template pages/category, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-valid::category-valid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:29.905+08:00  WARN 8356 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][pages/category/category-valid] Deprecated unwrapped fragment expression "modal/category-modal::category-modal" found in template pages/category/category-valid, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{modal/category-modal::category-modal}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:29.907+08:00  WARN 8356 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][modal/category-modal] Deprecated unwrapped fragment expression "components/com-icon-select::com-icon-select" found in template modal/category-modal, line 4, col 10. Please use the complete syntax of fragment expressions instead ("~{components/com-icon-select::com-icon-select}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:29.911+08:00  WARN 8356 --- [http-nio-8082-exec-5] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-5][pages/category] Deprecated unwrapped fragment expression "pages/category/category-invalid::category-invalid" found in template pages/category, line 5, col 10. Please use the complete syntax of fragment expressions instead ("~{pages/category/category-invalid::category-invalid}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:34.771+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][index] Deprecated unwrapped fragment expression "components/carousel-flip-notice::carousel-flip-notice" found in template index, line 96, col 6. Please use the complete syntax of fragment expressions instead ("~{components/carousel-flip-notice::carousel-flip-notice}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:34.773+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][components/carousel-flip-notice] Deprecated unwrapped fragment expression "components/flip-countdown::flip-countdown" found in template components/carousel-flip-notice, line 4, col 8. Please use the complete syntax of fragment expressions instead ("~{components/flip-countdown::flip-countdown}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:34.775+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][index] Deprecated unwrapped fragment expression "components/home-card-list::home-card-list" found in template index, line 97, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-card-list::home-card-list}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-17T17:03:34.778+08:00  WARN 8356 --- [http-nio-8082-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8082-exec-1][index] Deprecated unwrapped fragment expression "components/home-header-right::home-header-right" found in template index, line 98, col 6. Please use the complete syntax of fragment expressions instead ("~{components/home-header-right::home-header-right}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.

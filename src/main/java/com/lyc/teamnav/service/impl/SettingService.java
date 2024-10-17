@@ -5,7 +5,6 @@ import com.lyc.teamnav.bean.entity.Setting;
 import com.lyc.teamnav.common.constants.Constants;
 import com.lyc.teamnav.common.utils.BeanExtUtils;
 import com.lyc.teamnav.repository.SettingRepository;
-import com.lyc.teamnav.service.ISettingService;
 import jakarta.annotation.Resource;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -14,8 +13,10 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Service;
 
+
 @Service
-public class SettingServiceImpl implements ApplicationRunner, ISettingService {
+public class SettingService implements ApplicationRunner {
+
     @Resource
     private SettingRepository settingRepository;
 
@@ -23,6 +24,7 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
 
     @Value("${nav-name}")
     private String navName;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         Setting setting = get();
@@ -42,6 +44,11 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
         this.settingChange(setting);
     }
 
+    /**
+     * get
+     *
+     * @return Setting
+     */
     public Setting get() {
         return settingRepository.findAll().stream().findFirst().orElse(new Setting().setId("setting-id"));
     }
@@ -53,7 +60,7 @@ public class SettingServiceImpl implements ApplicationRunner, ISettingService {
      */
     public void saveSetting(SettingDto settingDto) {
         Setting setting = BeanExtUtils.convert(settingDto, Setting::new).setId("setting-id");
-        setting.setNginxUrl(StringUtils.removeEnd(settingDto.getNginxUrl(), "/"));
+        setting.setNginxUrl(StringUtils.stripEnd(settingDto.getNginxUrl(), "/"));
         if (StringUtils.isBlank(setting.getLogoPath())) {
             setting.setLogoPath(Constants.DEFAULT_LOGO_PATH);
         }
