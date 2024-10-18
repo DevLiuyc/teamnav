@@ -66,7 +66,7 @@ public class CardController {
      * @param cardDto 修改数据模型
      * @return Void
      */
-    @PatchMapping("/card/update/{id}")
+    @PatchMapping("/card/{id}")
     public ResponseEntity<Void> update(@PathVariable("id") String id, @RequestBody CardDto cardDto) {
         cardService.save(id, cardDto);
         return ResponseEntity.noContent().build();
