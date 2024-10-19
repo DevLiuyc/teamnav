@@ -1,7 +1,3 @@
-/*
- * @author tuituidan
- * @date 2020/12/11
- */
 new Vue({
     el: '#app',
     data() {
