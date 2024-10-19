@@ -2,6 +2,7 @@ new Vue({
     el: '#app',
     data() {
         return {
+            isDarkMode: false,
             keywords: '',
             isCollapsed: localStorage.IndexCollapsed === 'true',
             datas: [],
@@ -24,6 +25,11 @@ new Vue({
         // iview的backtop组件要求高度固定，只能重写逻辑
         document.querySelector('.main-content')
             .addEventListener('scroll', this.handleScroll)
+        // 如果用户有保存的主题偏好，恢复用户的选择
+        const savedTheme = localStorage.getItem('darkMode');
+        if (savedTheme) {
+            this.isDarkMode = savedTheme === 'true';
+        }
     },
     computed: {
         isSmallLayout() {
@@ -46,6 +52,11 @@ new Vue({
         }
     },
     methods: {
+        toggleDarkMode() {
+            this.isDarkMode = !this.isDarkMode;
+            // 可以通过 localStorage 保存用户的偏好
+            localStorage.setItem('darkMode', this.isDarkMode);
+        },
         handleScroll(e) {
             document.querySelector('.ivu-back-top').style.display
                 = e.target.scrollTop > 400 ? 'block' : 'none';
