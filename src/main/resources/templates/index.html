@@ -12,21 +12,25 @@
 <body>
 <div v-cloak id="app">
     <Layout>
-        <!-- 顶部导航 -->
-        <i-header class="layout-header-bar">
-            <div class="header-wapper">
-                <div class="header-left">
-                </div>
-                <i-input class="header-search"
-                         search
-                         placeholder="输入关键字回车搜索..."
-                         v-model.trim="keywords"
-                         @on-search="loadTree"></i-input>
-                <div class="header-right">
+        <Layout>
+            <!-- 顶部导航 -->
+            <i-header class="layout-header-bar">
+                <div class="header-wapper">
+                    <div class="header-left">
+                        <Icon @click.native="collapsedSider"
+                              :class="rotateIcon" type="md-menu"
+                              size="26"></Icon>
+                        <i-input class="header-search"
+                                 search
+                                 placeholder="输入关键字回车搜索..."
+                                 v-model.trim="keywords"
+                                 @on-search="loadTree"></i-input>
+                        <carousel-flip-notice></carousel-flip-notice>
+                    </div>
                     <home-header-right></home-header-right>
                 </div>
-            </div>
-        </i-header>
+            </i-header>
+        </Layout>
         <!-- 侧边栏和内容区域 -->
         <Layout>
             <!-- 侧边栏：不折叠 -->

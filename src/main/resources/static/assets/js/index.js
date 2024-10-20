@@ -95,6 +95,9 @@ new Vue({
         },
         dropdownClick(id) {
             this.choosedMenu(id);
-        }
+        },
+        gotoAdmin() {
+            location.href = '/admin/category';
+        },
     }
 });
