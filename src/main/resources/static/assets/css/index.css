@@ -292,12 +292,12 @@
 .admin-layout-container .layout-header-bar .header-wapper {
     display: flex;
     align-tems: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     z-index: 1;
     box-shadow: 0 1px 6px rgba(0,0,0,.2);
     background: white;
-    color: #05264c;
+    color: #050e4c;
     height: /*var(--default-header-height)*/70px;
 }
 
@@ -475,7 +475,9 @@
     padding-top: 10px
 }
 .header-search{
-    width: 400px;
+    flex: 1;  /* 使搜索框占用剩余的空间 */
+    max-width: 400px;  /* 根据设计调整最大宽度 */
+    margin-right: 10px;  /* 在搜索框和其他元素之间添加间距 */
 }
 
 .no-data {
@@ -646,4 +648,28 @@
     /* 或者使用 flexbox */
     display: flex;
     justify-content: flex-end;
+}
+
+/* Footer 样式 */
+.layout-footer-bar {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* 固定侧边栏 */
+.sidebar-fixed {
+    position: fixed;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto; /* 侧边栏内添加滚动 */
 }
