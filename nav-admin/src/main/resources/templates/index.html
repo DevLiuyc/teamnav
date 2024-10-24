@@ -13,8 +13,8 @@
 <div v-cloak id="app">
     <Layout>
         <Layout>
-            <!-- 顶部导航 -->
-            <i-header class="layout-header-bar">
+            <!-- 顶部导航，固定位置 -->
+            <i-header class="layout-header-top">
                 <div class="header-wapper">
                     <div class="header-left">
                         <Icon @click.native="collapsedSider"
@@ -34,7 +34,8 @@
         <!-- 侧边栏和内容区域 -->
         <Layout>
             <!-- 侧边栏：不折叠 -->
-            <Sider ref="sidebar" class="sidebar sidebar-fixed">
+            <!--侧边栏滚动条设置：overflow:hidden-->
+            <Sider ref="sidebar" class="sidebar">
                 <i-menu ref="side_menu"
                         theme="light"
                         active-name="1">
@@ -53,12 +54,14 @@
                 <back-top @on-click="scrollToTop"></back-top>
             </Layout>
         </Layout>
-        <!-- 底部区域 -->
-        <i-footer class="layout-footer-bar">
-            <div class="footer-content">
-                <p>&copy; 2024 Team Navigation. All rights reserved.</p>
-            </div>
-        </i-footer>
+        <Layout>
+            <!-- 底部区域 -->
+            <i-footer class="layout-footer-bar">
+                <div class="footer-content">
+                    <p>&copy; 2024 Team Navigation. All rights reserved.</p>
+                </div>
+            </i-footer>
+        </Layout>
     </Layout>
 </div>
 
