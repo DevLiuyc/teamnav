@@ -664,12 +664,12 @@
     line-height: 1.5;
 }
 
-/* 固定侧边栏 */
-.sidebar-fixed {
-    position: fixed;
-    top: 200px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    overflow-y: auto; /* 侧边栏内添加滚动 */
-}
+/*!* 固定侧边栏 *!*/
+/*.sidebar-fixed {*/
+/*    position: fixed;*/
+/*    top: 200px;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    z-index: 1000;*/
+/*    overflow-y: auto; !* 侧边栏内添加滚动 *!*/
+/*}*/
